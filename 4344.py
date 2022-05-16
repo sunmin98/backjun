@@ -1,25 +1,14 @@
 n = int(input())
 
-for i in range(1,n+1):
+for i in range(0,n):
     count=0
-    aver=0
     num=list(map(int, input().split()))
-    for a in enumerate(num, start=1):
-        aver += a[a]
-    averegy=aver/(len(num)-1)
-    print(averegy)
+    aver=(sum(num)-num[0])/(len(num)-1)
 
 
-    # for i in enumerate(num,start=1):
-    #     if i>aver : count+=1
-    #
-    # print(count/(len(num)-1),"%")
+    for i in range(1,len(num)):
 
+        if num[i]>aver: count+=1
 
-
-
-
-
-
-
+    print(round(count/(len(num)-1)*100,3),"%")
 

@@ -8,3 +8,4 @@ for i in num_list:
     num+=i
 
 print(num)
+

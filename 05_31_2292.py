@@ -12,4 +12,3 @@ while(6*x+1<a):
 print(num+1)
 
 
-

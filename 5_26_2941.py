@@ -3,7 +3,7 @@ lists1=[]
 lists2=[]
 lists3=[]
 count=0
-''
+''''''
 a1=str
 a2=str
 a3=str

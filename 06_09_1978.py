@@ -8,7 +8,7 @@ li.append(n4)
 
 NS_count=0 #소수
 count=0 #소수아님
-
+#
 for i in li:
     for num in range(2,i+1):
         if i ==1 :

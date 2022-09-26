@@ -1,11 +1,11 @@
-a= int(input())
+a = int(input())
 
-lists=[]
+lists = []
 
-for i in range(a) :
+for i in range(a):
     b = str(input())
 
-    if 50 > len(b) :
+    if 50 > len(b):
         c = ord(b)
         lists.append(c)
 

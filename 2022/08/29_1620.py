@@ -1,4 +1,5 @@
 import sys
+
 input = sys.stdin.readline
 
 N = int(input())
@@ -14,11 +15,10 @@ for i in list_1:
     else:
         count[i] = 1
 
-#print(count)
+# print(count)
 
 for i in list_2:
     if i in count:
-        print(count[i],end=' ')
+        print(count[i], end=' ')
     else:
-        print(0,end=' ')
-
+        print(0, end=' ')

@@ -3,6 +3,7 @@ import math
 a, b = map(int, input().split())
 lists = [a]
 
+
 if a == 0:
     print(0)
     exit()

@@ -9,6 +9,3 @@ for i in range(a):
     elif b<a : print(math.comb(a,b))
     elif a==b : print(1)
 
-
-
-

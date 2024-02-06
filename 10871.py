@@ -1,7 +1,9 @@
-a,b = map(int, input().split())
+a, b = map(int, input().split())
 
-list = list(map(int, input().split()))
+lists = list(map(int, input().split()))
+ans_lists = []
 
-for i in range(list):
-    if a>list[i] and b>list[i] :
-        print(list[i], end=' ')
+for i in lists:
+	if b > i:
+		ans_lists.append(i)
+print(*ans_lists)
